@@ -19,9 +19,6 @@ h1, h2, h3, h4{
     font-weight: 900;
     color: #244589;
     text-shadow: 1px 2px 3px #FFB6C1, 0 0 0 #000, 1px 2px 3px #FFB6C1;
-
-
-
 }
 
 h5, h6{
@@ -91,13 +88,73 @@ nav {
     margin: 5px;
 }
 
+/* FAQ */
+.strip {
+    position: relative;
+}
+
+.strip span {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    margin-bottom: 10%;
+}
+
+.strip h2 {
+    font-size: 600%;
+}
+.accordion{
+    margin: auto;
+    padding: 0px 15%;
+}
+
+.accordion-item{
+    background-color: none;
+}
+
+.accordion-item-header{
+    padding: 1rem 3rem 1rem 1rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-bottom: grey solid 1px;
+}
+
+.accordion-item-header::after{
+    font-weight: 400;
+    content: "\002B";
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.accordion-item-header.active::after{
+    transform: rotate(45deg);
+    color: grey;
+}
+
+.accordion-item-body{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.accordion-item-body-content{
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+
 /* Footer */
 footer{
-    margin-top: 10%;
+    margin-top: 7%;
     background-size: 100%;
     background-position: center, left top;
     background-repeat: no-repeat;
-    padding: 250px 0px;
 }
 
 footer h2 {
