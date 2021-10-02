@@ -76,9 +76,9 @@ nav {
     margin: 5px;
 }
 
-.splash-image{
+.burger-image{
     position: absolute;
-    top: 15em;
+    top: 10em;
     max-width: 90%;
     left: 4em;
 }
