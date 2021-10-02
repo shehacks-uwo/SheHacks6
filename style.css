@@ -12,10 +12,22 @@ body {
 }
 
 h1, h2, h3, h4{
-    color: #144256;
-    font-family: "Poppins";
-    font-weight: 700;
+   
+    font-family: "Reckless Neue";
+    background-color: #244589;
+    font-weight: 1000;
+    letter-spacing: -0.05em;
+    font-size: 60px;
+    background-image: linear-gradient(180deg, #244589, #F08F65);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
 }
+
 
 h5, h6{
     color: #144256;
@@ -23,7 +35,9 @@ h5, h6{
     font-weight: 600;
 }
 
-
+.inner-shadow{
+    box-shadow: 0px -16px 30px 0px rgba(240, 143, 101, 0.85) inset;
+}
 /* navbar */
 nav {
     background-color: white;
@@ -43,11 +57,11 @@ nav {
 }
 
 .navbar .nav-item .nav-link:hover{
-    color: #FF7A60;
+    color: #1c448e;
 }
 
 .nav-link.active {
-    color: #FF7A60 !important;
+    color: #1c448e !important;
   }
 
 .navbar-brand img {
@@ -72,6 +86,47 @@ nav {
     display: flex;
     align-items: center;
     margin: 5px;
+}
+
+
+#splash-screen {
+    height: 200vh;
+    width: 100vw;
+    background: linear-gradient(36deg, rgba(239,243,215,1) 79%, rgba(240,143,101,1) 100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat no-repeat;
+    background-position: top, center;
+}
+
+.burger-image{
+    padding-top: 150px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    width: 100%;
+    height: auto;
+    margin: auto auto;
+
+}
+
+.background-splash{
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    z-index: 1;
+
+}
+
+#splash-screen .container{
+    align-items: center;
+
+}
+
+.transition{
+    position: relative;
+    height: 100vh;
 }
 
 
@@ -105,4 +160,21 @@ nav {
     .content div{
         padding: 5% 0;
     }
+}
+
+.orange-button{
+    border-radius: 50px;
+    color: white;
+    background-color: #E68976;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 25px;
+    padding: 7px 20px;
+    margin: 5px 0;
+    border: none;
+}
+
+.orange-button:hover{
+    opacity: 0.5;
+    transition: all 0.3s ease 0s;
 }
