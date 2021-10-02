@@ -10,7 +10,7 @@ body {
     font-weight: 400;
     background-image: url("images/background-dashes.png");
     background-repeat: repeat-y;
-    background: rgb(239,243,215);
+    background: linear-gradient(78deg, rgba(239,243,215,1) 0%, rgba(233,235,222,1) 41%, rgba(205,214,251,1) 100%);
 }
 
 
@@ -214,7 +214,6 @@ footer img {
 #splash-screen {
     height: 200vh;
     width: 100vw;
-    background: linear-gradient(36deg, rgba(239,243,215,1) 79%, rgba(240,143,101,1) 100%);
     background-size: 100% 100%;
     background-repeat: no-repeat no-repeat;
     background-position: top, center;
