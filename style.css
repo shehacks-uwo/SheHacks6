@@ -2,6 +2,7 @@
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body {
     background-color: #EFFEFF;
@@ -10,16 +11,24 @@ body {
     background-image: url("images/background-dashes.png");
     background-repeat: repeat-y;
     background: rgb(239,243,215);
-    background: linear-gradient(78deg, rgba(239,243,215,1) 0%, rgba(233,235,222,1) 41%, rgba(205,214,251,1) 100%);
 }
 
 h1, h2, h3, h4{
-    color: #144256;
-    font-family: "Poppins";
-    font-weight: 900;
-    color: #244589;
-    text-shadow: 1px 2px 3px #FFB6C1, 0 0 0 #000, 1px 2px 3px #FFB6C1;
+    font-family: "Reckless Neue";
+    background-color: #244589;
+    font-weight: 1000;
+    letter-spacing: -0.05em;
+    font-size: 60px;
+    background-image: linear-gradient(180deg, #244589, #F08F65);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
 }
+
 
 h5, h6{
     color: #144256;
@@ -37,6 +46,9 @@ h5, h6{
 }
 
 
+.inner-shadow{
+    box-shadow: 0px -16px 30px 0px rgba(240, 143, 101, 0.85) inset;
+}
 /* navbar */
 nav {
     background-color: white;
@@ -57,11 +69,11 @@ nav {
 }
 
 .navbar .nav-item .nav-link:hover{
-    color: #FF7A60;
+    color: #1c448e;
 }
 
 .nav-link.active {
-    color: #FF7A60 !important;
+    color: #1c448e !important;
   }
 
 .navbar-brand img {
@@ -96,12 +108,13 @@ nav {
 .strip span {
     position: absolute;
     bottom: 0;
-    left: 45%;
+    left: 40%;
     margin-bottom: 10%;
 }
 
 .strip h2 {
     font-size: 600%;
+    font-weight: 900;
 }
 .accordion{
     margin: auto;
@@ -121,12 +134,13 @@ nav {
     font-weight: 700;
     font-size: 1.2rem;
     border-bottom: grey solid 1px;
+    color: #244589;
 }
 
 .accordion-item-header::after{
     font-weight: 400;
     content: "\002B";
-    color: black;
+    color:#ed8d67;
     font-size: 2rem;
     position: absolute;
     right: 1rem;
@@ -158,8 +172,9 @@ footer{
 }
 
 footer h2 {
-    font-size: 300%;
-    line-height: 50px;
+    font-size: 450%;
+    line-height: 100px;
+    font-weight: 900;
 }
 
 footer p {
@@ -181,8 +196,48 @@ footer img {
 }
 
 
+/* burger page */
+#splash-screen {
+    height: 200vh;
+    width: 100vw;
+    background: linear-gradient(36deg, rgba(239,243,215,1) 79%, rgba(240,143,101,1) 100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat no-repeat;
+    background-position: top, center;
+}
 
-/* Mobile */
+.burger-image{
+    padding-top: 150px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    width: 100%;
+    height: auto;
+    margin: auto auto;
+
+}
+
+.background-splash{
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    z-index: 1;
+
+}
+
+#splash-screen .container{
+    align-items: center;
+
+}
+
+.transition{
+    position: relative;
+    height: 100vh;
+}
+
+
 
 @media (min-width: 992px){s
     h1{
@@ -213,4 +268,21 @@ footer img {
     .content div{
         padding: 5% 0;
     }
+}
+
+.orange-button{
+    border-radius: 50px;
+    color: white;
+    background-color: #E68976;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 25px;
+    padding: 7px 20px;
+    margin: 5px 0;
+    border: none;
+}
+
+.orange-button:hover{
+    opacity: 0.5;
+    transition: all 0.3s ease 0s;
 }
