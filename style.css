@@ -13,7 +13,8 @@ body {
     background: rgb(239,243,215);
 }
 
-h1, h2, h3, h4{
+
+h1, h2, h3, h4 {
     font-family: "Reckless Neue";
     background-color: #244589;
     font-weight: 1000;
@@ -28,7 +29,6 @@ h1, h2, h3, h4{
     -moz-text-fill-color: transparent;
 
 }
-
 
 h5, h6{
     color: #144256;
@@ -171,14 +171,28 @@ footer{
     background-repeat: no-repeat;
 }
 
-footer h2 {
-    font-size: 450%;
-    line-height: 100px;
+footer h2{
+    font-size: 500%;
     font-weight: 900;
+    line-height: 100px;
+    background-color: #F08F65;
+    background-image: linear-gradient(top,  #244589, #F08F65);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
 }
 
 footer p {
-    font-size: 120%;
+    font-size: 150%;
+    color: #144256;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #244589;
+    text-shadow: 1px 1px 1px #FFB6C1, 0 0 0 #000, 1px 1px 1px #FFB6C1;
 }
 
 footer i {
@@ -236,6 +250,15 @@ footer img {
     position: relative;
     height: 100vh;
 }
+.simple{
+    text-shadow: 0 1px 0 #FFB6C1;
+}
+
+.fix{
+    bottom:0px;
+    left: 0px;
+}
+
 
 
 
