@@ -33,40 +33,74 @@
   
 <!--Body Starts-->
 <body id="landing" data-spy="scroll" data-target=".navbar" data-offset="50">
-<!--nav bar-->
+    
+    <!--nav bar-->
 
-<header>
-    <nav class="navbar navbar-light navbar-expand-md fixed-top">
-        <div class = "container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <a href="#landing" class="navbar-brand" style="padding: 5px auto 2px auto; "><img src="images/nav-logo.png"  alt="she/hacks"></a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="navbar-toggler-icon"></i>
-            </button>  
+    <header>
+        <nav class="navbar navbar-light navbar-expand-md fixed-top">
+            <div class = "container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <a href="#landing" class="navbar-brand" style="padding: 5px auto 2px auto; "><img src="images/nav-logo.png"  alt="she/hacks"></a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="navbar-toggler-icon"></i>
+                </button>  
 
-            <!-- collapse navbar -->
-            <div class="navbar-collapse collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto w-100 clearfix">
-                    <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#olympics">OLYMPICS</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#community">COMMUNITY</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#sponsors">SPONSOR</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-                </ul>
+                <!-- collapse navbar -->
+                <div class="navbar-collapse collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto w-100 clearfix">
+                        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#olympics">OLYMPICS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#community">COMMUNITY</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sponsors">SPONSOR</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:65px;top: 80px;;width:10%;z-index:10000" href="https://mlh.io/seasons/2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=black" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-black.svg" alt="Major League Hacking 2021 Hackathon Season" style="width:100%"></a>
+
+    <section id="splash-screen">
+        <div class="container vertical-center horizontal-center">
+            <!--blobs-->
+            <div>
+                <img src="images/blob1.png" alt="blob" class="blob1">
+                <img src="images/blob2.png" alt="blob" class="blob2">
+                <img src="images/blob3.png" alt="blob" class="blob3">
+                <img src="images/blob4.png" alt="blob" class="blob4">
+                <img src="images/blob5.png" alt="blob" class="blob5">
+                <img src="images/blob6.png" alt="blob" class="blob6">
+                <img src="images/blob7.png" alt="blob" class="blob7">
+                <img src="images/blob8.png" alt="blob" class="blob8">
+            </div>
+            <div>
+                <img class="splash-image w-100" src="images/splash-large.png">
+            </div>
+            <!--curved text path -->
+            <svg viewBox="0 0 500 500" transform="matrix(0.96, -0.42, 0.26, 0.92, 0, 0), translate(-125,140), rotate(55)">
+                <path id="curve" fill="transparent" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
+                <text width="700">
+                  <textPath xlink:href="#curve" startOffset="0%" class="curved-path">
+                    36hr Hackathon for Women and Non-Binary Individuals
+                  </textPath>
+                </text>
+              </svg>
+            <!--shehacks knife logo-->
+            <div>
+                <img src="images/shehacks-logo.png" alt="shehacks logo" class="sh-logo">
             </div>
         </div>
-    </nav>
-</header>
-<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:65px;top: 80px;;width:10%;z-index:10000" href="https://mlh.io/seasons/2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=black" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-black.svg" alt="Major League Hacking 2021 Hackathon Season" style="width:100%"></a>
-
-<section id="splash-screen">
-    <div class="container vertical-center horizontal-center">
-        <div>
-            <img class="splash-image w-100" src="../images/splash-large.png">
-        </div>
-    </div>
-</section>
+    </section>
 
 
 </body>
 </html>
+
+
+<!--
+
+    BLOCKERS
+
+
+    putting the curved text as a text path vs png?
+-->

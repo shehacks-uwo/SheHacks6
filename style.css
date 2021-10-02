@@ -7,7 +7,8 @@ body {
     background-color: #EFFEFF;
     font-family: "Poppins";
     font-weight: 400;
-    background-image: url("images/background-dashes.png");
+    background-image: url("images/noise.png"), url("images/background-blur.png");
+    background-size: cover;
     background-repeat: repeat-y;
 }
 
@@ -52,9 +53,10 @@ nav {
 
 .navbar-brand img {
     width: 48px;
-    height: 44px;
+    height: 40px;
     align-items: center;
-    
+    position: absolute;
+    top: 0.6em;
 }
 
 .navbar {
@@ -74,6 +76,93 @@ nav {
     margin: 5px;
 }
 
+.splash-image{
+    position: absolute;
+    top: 15em;
+    max-width: 90%;
+    left: 4em;
+}
+
+.curved-path{
+    font-size: 0.6em;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 190px;
+    fill: #244589;
+}
+
+.blob1{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    left: 0em;
+    top: -2em;
+    
+}
+
+.blob2{
+    position: absolute;
+    width: 20%;
+    height: 90%;
+    right: 0em;
+    top: 0em;
+}
+
+.blob3{
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    left: 0em;
+    top: 40em;
+}
+
+.blob4{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    right: 0em;
+    top: 30em;
+}
+
+.blob5{
+    position: absolute;
+    width: 30%;
+    height: 65%;
+    left: 18em;
+    top: 29em;
+}
+
+.blob6{
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    left: 16em;
+    top: 50em;
+}
+
+.blob7{
+    position: absolute;
+    width: 17%;
+    height: 38%;
+    right: 10em;
+    top: 30em;
+}
+
+.blob8{
+    position: absolute;
+    width: 27%;
+    height: 60%;
+    right: 12em;
+    top: 55em;
+}
+
+.sh-logo{
+    position: absolute;
+    width: 55%;
+    top: 30em;
+    left: 21em;
+}
 
 
 @media (min-width: 992px){s
