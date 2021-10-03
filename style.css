@@ -288,6 +288,53 @@ nav {
     font-weight: 300;
 }
 
+/**WITS section**/
+.wits{
+    top: 150em;
+    position: relative;
+    margin-top: -90%;
+}
+.fork-noodles{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0em;
+    margin-top: 20%;
+    margin-bottom: 4%;
+
+}
+
+.wits h4{
+    font-family: "Poppins";
+    color: #244589;
+    font-weight: 700;
+}
+
+.wits-logo{
+   width: 50%;
+}
+/*SheHacks Team*/
+
+.headshot, img{
+	width: 100%;
+    padding: -40pc;
+}
+
+.team{
+    padding: 0%;
+}
+
+.headshot:hover{
+	opacity: 0.5;
+	transition: all 0.3s ease 0s;	
+}
+
+.headshot-name{
+	font-family: "Roboto";
+	font-weight: 500;
+}
+
+
 @media (max-width:991px){
      .reverse-col{
         flex-direction:column-reverse;
@@ -314,6 +361,14 @@ nav {
         font-weight: 700;
         font-size: smaller;
     }
+
+    .wits h4{
+        font-family: "Poppins";
+        color: #244589;
+        font-weight: 700;
+        font-size: smaller;
+    }
+    
     
     .past-events h5{
         font-family: "Poppins";
@@ -394,6 +449,12 @@ nav {
         margin: auto;
     }
     
+    .past-events h4{
+        font-family: "Poppins";
+        color: #244589;
+        font-weight: 700;
+        margin: auto;
+    }
     .past-events h5{
         font-family: "Poppins";
         color: #F08F65;
