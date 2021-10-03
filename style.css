@@ -10,6 +10,7 @@ body {
     background-image: url("images/noise.png"), url("images/background-blur.png");
     background-size: cover;
     background-repeat: repeat-y;
+    background-color: #FFFAED;
 }
 
 h1, h2, h3, h4{
@@ -69,18 +70,11 @@ nav {
     padding: .5rem 1rem;
 }
 
-.content{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    margin: 5px;
-}
-
 .burger-image{
-    position: absolute;
-    top: 10em;
-    max-width: 90%;
-    left: 4em;
+    max-width: 100%;
+    z-index:100;
+    position: relative;
+    left: 2em;
 }
 
 .curved-path{
@@ -92,19 +86,24 @@ nav {
     fill: #244589;
 }
 
+.blob{
+    z-index: -1;
+    position: relative;
+    height: auto;
+}
+
 .blob1{
     position: absolute;
     width: 30%;
-    height: 100%;
+    height: auto;
     left: 0em;
     top: -2em;
-    
 }
 
 .blob2{
     position: absolute;
     width: 20%;
-    height: 90%;
+    height: auto;
     right: 0em;
     top: 0em;
 }
@@ -112,49 +111,49 @@ nav {
 .blob3{
     position: absolute;
     width: 20%;
-    height: 25%;
+    height: auto;
     left: 0em;
-    top: 40em;
+    top: 80vh;
 }
 
 .blob4{
     position: absolute;
     width: 25%;
-    height: 100%;
-    right: 0em;
-    top: 30em;
+    height: auto;
+    right: 0vw;
+    top: 60vh;
 }
 
 .blob5{
     position: absolute;
     width: 30%;
-    height: 65%;
-    left: 18em;
+    height: auto;
+    left: 20vw;
     top: 29em;
 }
 
 .blob6{
     position: absolute;
     width: 20%;
-    height: 50%;
-    left: 16em;
+    height: auto;
+    left: 60vw;
     top: 50em;
 }
 
 .blob7{
     position: absolute;
     width: 17%;
-    height: 38%;
-    right: 10em;
+    height: auto;
+    right: 3vw;
     top: 30em;
 }
 
 .blob8{
     position: absolute;
     width: 27%;
-    height: 60%;
-    right: 12em;
-    top: 55em;
+    height: auto;
+    right: 10vw;
+    top: 105vh;
 }
 
 .sh-logo{
@@ -165,21 +164,48 @@ nav {
 }
 
 
-@media (min-width: 992px){s
-    h1{
-        font-size: 120px;
-    }
+.vertical-center{
+    display:flex;
+    align-items: center;
 }
 
+.horizontal-center{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
-@media (max-width: 576px){
-    .content{
-        min-height: 100vh;
-    }
+.container{
+    padding: 5% 0%;
+}
 
-    .content h4{
-        font-size: 1.3rem;
-    }
+.lettuce{
+    margin-left: 1.5%;
+    z-index: 0;
+    position: relative;
+}
+
+.backup-lettuce{
+    display: none;
+}
+
+.past-events{
+    top: 2.5em;
+    position: relative;
+    margin-top: -90%;
+    margin-inline: 15%;
+}
+
+.past-events h4{
+    font-family: "Poppins";
+    color: #244589;
+    font-weight: 700;
+}
+
+.past-events h5{
+    font-family: "Poppins";
+    color: #F08F65;
+    font-weight: 300;
 }
 
 @media (max-width:991px){
@@ -187,11 +213,91 @@ nav {
         flex-direction:column-reverse;
         padding:5%;
     }
-    .content{
-        min-height: 100vh;
+
+    .burger-image{
+        top: 15%;
+        max-width: 100%;
+        z-index:100;
+        position: relative;
+        left: 2em;
     }
 
-    .content div{
-        padding: 5% 0;
+    .past-events{
+        position: relative;
+        margin-top: -90%;
+        margin-inline: 15%;
+    }
+    
+    .past-events h4{
+        font-family: "Poppins";
+        color: #244589;
+        font-weight: 700;
+        font-size: smaller;
+    }
+    
+    .past-events h5{
+        font-family: "Poppins";
+        color: #F08F65;
+        font-weight: 300;
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 768px){
+    .past-events{
+        position: relative;
+        margin-top: -100%;
+        margin-inline: 15%;
+    }
+
+    .burger-image{
+        max-width: 90%;
+        z-index:100;
+        position: relative;
+        left: 2em;
+    }
+}
+
+
+@media (max-width: 576px){
+    .burger-image{
+        top: 5em;
+        max-width: 80%;
+        z-index:100;
+        position: relative;
+    }
+
+    .lettuce{
+        display: None;
+    }
+
+    .backup-lettuce{
+        display: block;
+        padding-inline: 5%;
+    }
+
+    .past-events{
+        position: relative;
+        margin-top: -175%;
+        margin-inline: 15%;
+    }
+    
+    .past-events h4{
+        font-family: "Poppins";
+        color: #244589;
+        font-weight: 700;
+        margin: auto;
+    }
+    
+    .past-events h5{
+        font-family: "Poppins";
+        color: #F08F65;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 992px){s
+    h1{
+        font-size: 120px;
     }
 }
