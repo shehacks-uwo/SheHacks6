@@ -200,21 +200,13 @@ nav {
 }
 
 /****************************************************** FAQ *******************************************************/
+
+
 .strip {
     position: relative;
+    padding-top: 15%;
 }
 
-.strip span {
-    position: absolute;
-    bottom: 0;
-    left: 40%;
-    margin-bottom: 10%;
-}
-
-.strip h2 {
-    font-size: 600%;
-    font-weight: 900;
-}
 .accordion{
     margin: auto;
     padding: 0px 15%;
