@@ -179,6 +179,86 @@ nav {
     padding: 5% 0%;
 }
 
+
+/*About CSS*/
+
+.about{
+    top: 2.5em;
+    position: relative;
+    margin-top: -90%;
+}
+
+.bowl-noodles{
+
+    position: absolute;
+    width: 30%;
+    height: auto;
+    right: 0em;
+    margin-top: -4%;
+    margin-bottom: 10px;
+    
+}
+
+.tomatoes{
+
+    position: absolute;
+    width: 48%;
+    height: auto;
+    left: 0em;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    
+}
+
+.olives{
+
+    position: absolute;
+    width: 28%;
+    height: auto;
+    right: 0em;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    
+}
+.about-heading{
+    width: 85%;
+    height: auto;
+}
+.about_shehacks{
+    
+    margin-top: 20%;
+    margin-right: 0%;
+}
+
+.hacker-olympics{
+    margin-top: 30%;
+    margin-right: 0%;
+}
+
+.about-text{
+    font-family: "Poppins";
+    color: #244589;
+    font-weight: 300;
+    
+}
+
+.white-button{
+    border-radius: 50px;
+    color: #244589;
+    background-color: #EFF3D7;
+    font-family: "Poppins";
+    font-weight: "semi-bold";
+    
+    border: none;
+    box-shadow: 0px 3px 4px #F08F6559;
+}
+
+
+.backup-olives{
+    display: none;
+}
+
+/*Past Events CSS*/
 .lettuce{
     margin-left: 1.5%;
     z-index: 0;
@@ -241,6 +321,17 @@ nav {
         font-weight: 300;
         font-size: smaller;
     }
+
+  
+
+    .about-text{
+        font-family: "Poppins";
+        color: #244589;
+        font-weight: 300;
+        font-size: smaller;
+        
+    }
+    
 }
 
 @media (max-width: 768px){
@@ -256,6 +347,16 @@ nav {
         position: relative;
         left: 2em;
     }
+
+    .about-text{
+        font-family: "Poppins";
+        color: #244589;
+        font-weight: 300;
+        font-size: smaller;
+        
+    }
+
+    
 }
 
 
@@ -274,6 +375,10 @@ nav {
     .backup-lettuce{
         display: block;
         padding-inline: 5%;
+    }
+ 
+    .olives{
+        display: none;
     }
 
     .past-events{
@@ -294,6 +399,16 @@ nav {
         color: #F08F65;
         font-weight: 300;
     }
+
+    .about-text{
+        font-family: "Poppins";
+        color: #244589;
+        font-weight: 300;
+        font-size: smaller;
+        
+    }
+
+    
 }
 
 @media (min-width: 992px){s
@@ -301,3 +416,5 @@ nav {
         font-size: 120px;
     }
 }
+
+
