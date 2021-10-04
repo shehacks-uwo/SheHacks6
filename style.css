@@ -339,6 +339,20 @@ footer img {
     left: 0px;
 }
 
+/* hall of fame */
+.sushi{
+    position: relative;
+    top: 0;
+    right: -2%;
+}
+
+.hall-of-fame-title{
+    position: relative;
+    left: 10vw;
+    top: 25%;
+}
+
+/* past-events */
 .lettuce{
     margin-left: 1.5%;
     z-index: 0;
@@ -471,6 +485,18 @@ footer img {
         color: #F08F65;
         font-weight: 300;
     }
+
+    .disappear{
+        display: none;
+    }
+
+    .hall-of-fame-title{
+        width: 75%;
+        position: relative;
+        left: 0;
+        padding: 5%;
+    }
+
 }
 
 @media (min-width: 992px){s
