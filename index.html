@@ -75,24 +75,29 @@
         <div class="container vertical-center horizontal-center">
             <!--blobs-->
             <div>
-                <img src="images/blob1.png" alt="blob" class="blob1 blob">
-                <img src="images/blob2.png" alt="blob" class="blob2 blob">
-                <img src="images/blob3.png" alt="blob" class="blob3 blob">
-                <img src="images/blob4.png" alt="blob" class="blob4 blob">
-                <img src="images/blob5.png" alt="blob" class="blob5 blob">
-                <img src="images/blob6.png" alt="blob" class="blob6 blob">
-                <img src="images/blob7.png" alt="blob" class="blob7 blob">
-                <img src="images/blob8.png" alt="blob" class="blob8 blob">
+                <img src="images/blob1.png" alt="blob" class="blob1 blob rellax" data-rellax-speed="3">
+                <img src="images/blob2.png" alt="blob" class="blob2 blob rellax" data-rellax-speed="3">
+                <img src="images/blob3.png" alt="blob" class="blob3 blob rellax" data-rellax-speed="5">
+                <img src="images/blob4.png" alt="blob" class="blob4 blob rellax" data-rellax-speed="8">
+                <img src="images/blob5.png" alt="blob" class="blob5 blob rellax" data-rellax-speed="4">
+                <img src="images/blob6.png" alt="blob" class="blob6 blob rellax" data-rellax-speed="8">
+                <img src="images/blob7.png" alt="blob" class="blob7 blob rellax" data-rellax-speed="6">
+                <img src="images/blob8.png" alt="blob" class="blob8 blob rellax" data-rellax-speed="9">
             </div>
-            <div class="container">
+            <div class="container rellax text-center" data-rellax-speed="-2">
                 <img class="burger-image w-100" src="images/burger.png">
+                <a href="">
+                    <button class="orange-button py-3">
+                        <b>Join the mailing list </b>&nbsp
+                        <img width="15" height="25" src="images/arrow-right.png">
+                    </button>
+                </a>
             </div>
 
         </div>
     </section>
     <div class="text-center">
-        <a href=""><button class="orange-button py-3"><b>Join the mailing list </b>&nbsp<img width="15" height="25"
-                    src="images/arrow-right.png"></button></a>
+        
     </div>
 
     <section id="past-events">
@@ -187,7 +192,7 @@
             <div class="col">
                 <img src="images/hall-of-fame/hall-of-fame.png" class="w-100 hall-of-fame-title">
             </div>
-            <div class="col disappear" style="text-align: right;">
+            <div class="col disappear rellax" style="text-align: right;" data-rellax-speed="2">
                 <img src="images/hall-of-fame/sushi.png" class="sushi w-50">
             </div>
         </div>
@@ -363,6 +368,14 @@
         <img src="./images/footer/footer-image.png" width="100%" />
     </footer>
 </body>
+
+<!-- parallax for splash page burger -->
+<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+<script>
+  var rellax = new Rellax('.rellax', {
+        center: true
+      });
+</script>
 
 <!--slick carousel script-->
 <script>
