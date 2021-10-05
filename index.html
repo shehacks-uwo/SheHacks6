@@ -180,6 +180,35 @@
         </div>
     </section>
 
+    <!-- hall of fame -->
+    <section id="hall-of-fame">
+        <div class="container" style="height: 20vh;"></div>
+        <div class="row w-100">
+            <div class="col">
+                <img src="images/hall-of-fame/hall-of-fame.png" class="w-100 hall-of-fame-title">
+            </div>
+            <div class="col disappear" style="text-align: right;">
+                <img src="images/hall-of-fame/sushi.png" class="sushi w-50">
+            </div>
+        </div>
+
+        <div class="py-5">
+            <div class="horizontal-center">
+                <!--slick slider autoplay-->
+                <div class="carousel w-100 py-5">
+                    <div><img src="images/hall-of-fame/slide-1.png" class="w-100"></div>
+                    <div><img src="images/hall-of-fame/slide-2.png" class="w-100"></div>
+                    <div><img src="images/hall-of-fame/slide-3.png" class="w-100"></div>
+                    <div><img src="images/hall-of-fame/slide-4.png" class="w-100"></div>
+                    <div><img src="images/hall-of-fame/slide-1.png" class="w-100"></div>
+                    <div><img src="images/hall-of-fame/slide-2.png" class="w-100"></div>
+                    <div><img src="images/hall-of-fame/slide-3.png" class="w-100"></div>
+                    <div><img src="images/hall-of-fame/slide-4.png" class="w-100"></div>
+                    <div style="text-align: center;"><img src="images/hall-of-fame/knife.png"></div>
+                </div>
+            </div>
+        </div>
+    </section>
     
 
     <!-- FAQ -->
@@ -334,6 +363,39 @@
         <img src="./images/footer/footer-image.png" width="100%" />
     </footer>
 </body>
+
+<!--slick carousel script-->
+<script>
+    $('.carousel').slick({
+        slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 20000,
+        cssEase:'linear',
+        infinite: true,
+        focusOnSelect: false,
+        pauseOnHover: true,
+        arrows:false,
+        dots:false,
+        responsive: [{
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+            }
+        },                           
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+            }
+        }]
+    });
+</script>
 
 <!--faq script-->
 <script>
