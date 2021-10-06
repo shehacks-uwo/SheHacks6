@@ -297,6 +297,52 @@ nav {
     position: relative;
 }
 
+.history-text{
+    position: absolute;
+    width: 50%;
+    height: 22%;
+    left: 8em;
+    top: 203em;
+}
+
+.history-sh{
+    position: absolute;
+    width: 53%;
+    height: 22%;
+    left: 6em;
+    top: 211.5em;
+}
+
+.history-growth{
+    position: absolute;
+    width: 50%;
+    left: 3.5em;
+    top: 98.5em;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    
+    letter-spacing: -0.02em;
+    
+    color: #244589;
+}
+
+.history-cd{
+    position: absolute;
+    width: 85%;
+    height: 180%;
+    left: 7.5em;
+    top: 238em;
+}
+
+@media (min-width: 992px){
+    h1{
+        font-size: 120px;
+    }
+}
+
 .accordion{
     margin: auto;
     padding: 0px 15%;
