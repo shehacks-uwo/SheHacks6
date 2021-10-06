@@ -199,7 +199,98 @@ nav {
     left: 21em;
 }
 
-/****************************************************** FAQ *******************************************************/
+.pan1{
+    position: absolute;
+    width: 50%;
+    height: 95%;
+    left: 0em;
+    top: 105em;
+}
+
+.pan2{
+    position: absolute;
+    width: 55%;
+    height: 130%;
+    right: 0em;
+    top: 89em;
+}
+
+.pan3{
+    position: absolute;
+    width: 42%;
+    height: 122%;
+    left: 30em;
+    top: 139em;
+}
+
+.pan1-blurb{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 14em;
+    top: 85em;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+}
+
+.pan2-blurb{
+    position: absolute;
+    width: 23%;
+    height: 100%;
+    right: 11em;
+    top: 86em;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+}
+
+.pan3-blurb{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 29em;
+    top: 110.5em;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+}
+
+.panblob1{
+    position: absolute;
+    width: 33%;
+    height: 130%;
+    left: 0em;
+    top: 135em;
+}
+
+.panblob2{
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    right: 0em;
+    top: 144em;
+}
+
+.panblob3{
+    position: absolute;
+    width: 15%;
+    height: 65%;
+    right: 0em;
+    top: 118em;
+}
 
 
 .strip {
