@@ -29,14 +29,13 @@ h1, h2, h3, h4 {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent; */
-    color: #144256;
+    color: #244589;
     font-family: "Poppins";
     font-weight: 700;
-
 }
 
 h5, h6{
-    color: #144256;
+    color: #244589;
     font-family: "Poppins";
     font-weight: 600;
 }
@@ -197,6 +196,18 @@ nav {
     width: 55%;
     top: 30em;
     left: 21em;
+}
+
+/* ************************************************ history ****************************************************** */
+.history-text{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: xx-large;
+    color:#244589;
+    margin-left: 2%;
+}
+.history-cd-mobile{
+    display: none;
 }
 
 /****************************************************** FAQ *******************************************************/
@@ -494,11 +505,20 @@ footer img {
 
 
 @media (max-width: 576px){
+    .blob{
+        display: none;
+    }
+    
     .burger-image{
-        top: 5em;
-        max-width: 80%;
+        max-width: 90%;
         z-index:100;
         position: relative;
+        top: 3em;
+        left: 1em;
+    }
+
+    .orange-button{
+        top: 1em;
     }
 
     .lettuce{
@@ -547,6 +567,19 @@ footer img {
     }    
     #projects{
         display: none;
+    }
+    .history-cd{
+        display: none;
+    }
+    .history-cd-mobile{
+        display: block;
+    }
+    .history-text{
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: x-large;
+        color:#244589;
+        margin-left: 2%;
     }
 
 }
