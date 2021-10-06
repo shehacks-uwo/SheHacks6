@@ -200,7 +200,7 @@ nav {
 }
 
 .pan1{
-    position: absolute;
+    position: relative;
     width: 50%;
     height: 95%;
     left: 0em;
@@ -208,7 +208,7 @@ nav {
 }
 
 .pan2{
-    position: absolute;
+    position: relative;
     width: 55%;
     height: 130%;
     right: 0em;
@@ -216,7 +216,7 @@ nav {
 }
 
 .pan3{
-    position: absolute;
+    position: relative;
     width: 42%;
     height: 122%;
     left: 30em;
@@ -224,7 +224,7 @@ nav {
 }
 
 .pan1-blurb{
-    position: absolute;
+    position: relative;
     width: 20%;
     height: 100%;
     left: 14em;
@@ -239,7 +239,7 @@ nav {
 }
 
 .pan2-blurb{
-    position: absolute;
+    position: relative;
     width: 23%;
     height: 100%;
     right: 11em;
@@ -254,7 +254,7 @@ nav {
 }
 
 .pan3-blurb{
-    position: absolute;
+    position: relative;
     width: 20%;
     height: 100%;
     left: 29em;
@@ -269,7 +269,7 @@ nav {
 }
 
 .panblob1{
-    position: absolute;
+    position: relative;
     width: 33%;
     height: 130%;
     left: 0em;
@@ -277,7 +277,7 @@ nav {
 }
 
 .panblob2{
-    position: absolute;
+    position: relative;
     width: 30%;
     height: 90%;
     right: 0em;
@@ -285,7 +285,7 @@ nav {
 }
 
 .panblob3{
-    position: absolute;
+    position: relative;
     width: 15%;
     height: 65%;
     right: 0em;
