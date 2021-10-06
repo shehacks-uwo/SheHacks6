@@ -200,10 +200,8 @@ nav {
 }
 
 /****************************************************** FAQ *******************************************************/
-
-
-.strip {
-    position: relative;
+.strip{
+    padding: 100px 0px;
 }
 
 .accordion{
@@ -383,6 +381,46 @@ footer img {
     font-weight: 300;
 }
 
+/* *********************** projects **************************** */
+.project-card{
+    background-image: url("images/projects/board.png");
+    background-size:     contain;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    border-radius: 30px;
+}
+
+#projects-mobile{
+    display: none;
+}
+
+#projects-mobile .slick-slide{
+    height: 75vh;
+}
+
+#projects-mobile .slick-prev:before, #projects-mobile .slick-next:before{
+    color: #244589;
+    opacity: 1;
+    font-size: 30px;
+}
+
+#projects .slick-slide{
+    height: 630px;
+}
+
+#projects .slick-prev:before, #projects .slick-next:before{
+    color: #244589;
+    opacity: 1;
+    font-size: 30px;
+}
+
+.project-image{
+    background-image: url('images/projects/bridge-it.png'); 
+    background-size: contain; 
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 @media (max-width:991px){
      .reverse-col{
         flex-direction:column-reverse;
@@ -434,10 +472,11 @@ footer img {
     opacity: 0.5;
     transition: all 0.3s ease 0s;
 }
+
 @media (max-width: 768px){
     .past-events{
         position: relative;
-        margin-top: -100%;
+        margin-top: -90%;
         margin-inline: 15%;
     }
 
@@ -446,6 +485,10 @@ footer img {
         z-index:100;
         position: relative;
         left: 2em;
+    }
+
+    #projects .slick-slide{
+        height: 400px;
     }
 }
 
@@ -495,6 +538,15 @@ footer img {
         position: relative;
         left: 0;
         padding: 5%;
+    }
+    #projects .slick-slide{
+        height: 75vh;
+    }
+    #projects-mobile{
+        display: block;
+    }    
+    #projects{
+        display: none;
     }
 
 }
