@@ -84,7 +84,7 @@ nav {
 }
 
 .nav-link.active {
-    color: #FF7A60 !important;
+    color: #144256 !important;
 }
 
 .navbar-brand img {
@@ -348,6 +348,48 @@ footer img {
     left: 0px;
 }
 
+/* about */
+.about{
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+.about-text{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: x-large;
+    color:#244589;
+    margin-left: 2%;
+
+}
+
+.bowl-noodles{
+    position: relative;
+    right: -32%;
+}
+
+.tomatoes{
+    position: relative;
+    left: -33%;
+}
+
+.olives{
+    position: relative;
+    top: -30%;
+    right: -49%;
+}
+
+.hacker-olympics{
+    position: relative;
+    right: -10%;
+}
+
+.hacker-olympics-text{
+    position: relative;
+    
+}
+
+
 /* hall of fame */
 .sushi{
     position: relative;
@@ -440,9 +482,12 @@ footer img {
     top: 2%; 
 }
 
+.why-sponsor{
+    position: relative;
+    margin-top: 10%;
+}
 .why-sponsor-title{
     position: relative;
-    top: 25%;
 }
 
 .why-sponsor-text{
@@ -451,10 +496,34 @@ footer img {
         font-size: x-large;
         color:#244589;
         margin-left: 2%;
+}
+
+/**WIT**/
+
+.fork-noodles{
+    position: relative;
+    width: 128%;
+    height: auto;
+    left: -15%;
+    margin-top: 20%;
+    z-index: 1;
 
 }
 
+.wits-logo{
+    position: relative;
+    z-index: 2;
+    top: -40%;
 
+}
+
+.team{
+    margin-top: 10%; 
+}
+
+.t-left{
+    margin-right: -18%;
+}
 @media (max-width:991px){
      .reverse-col{
         flex-direction:column-reverse;
@@ -491,15 +560,13 @@ footer img {
 }
 
 .orange-button{
-    border-radius: 50px;
+    background-color: #FF7A60;
     color: white;
-    background-color: #E68976;
-    font-family: "Poppins";
-    font-weight: 300;
-    font-size: 25px;
-    padding: 7px 20px;
-    margin: 5px 0;
+    border-radius: 50px;
+    text-align: center;
     border: none;
+    padding: 18px 25px;
+
 }
 
 .orange-button:hover{
@@ -531,12 +598,17 @@ footer img {
     .blob{
         display: none;
     }
-    
+   
+    .olives{
+        position: relative;
+        margin-top: 50%;
+        right: -13%;
+    }
     .burger-image{
         max-width: 90%;
         z-index:100;
         position: relative;
-        top: 3em;
+        top: 2em;
         left: 1em;
     }
 
@@ -604,7 +676,44 @@ footer img {
         color:#244589;
         margin-left: 2%;
     }
+    .about-text .why-sponsor-text{
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: medium;
+        color:#244589;
+        text-align: center;
+        
+        
+    }
+    .about-title{
+        position: relative;
+        text-align: center;
+        margin-left: 10%;
+    }
+    .about-intro {
+        position: relative;
+        text-align: center;
+        margin-left: 10%;
+        font-size: 14px;
+        
+    }
+    .about-shehacks {
+        position: relative;
+        text-align: center;
+        margin-left: 10%;
+        font-size: 14px;
+    }
 
+    .about-olyampics{
+        position: relative;
+        text-align: center;
+        margin-left: 4%;
+        font-size: 14px;
+
+    }
+    .wits{
+        margin-left: 10%;
+    }
 }
 
 @media (min-width: 992px){s
