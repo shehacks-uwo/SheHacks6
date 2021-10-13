@@ -352,7 +352,7 @@ footer img {
 .sushi{
     position: relative;
     top: 0;
-    right: -2%;
+    right: -4%;
 }
 
 .hall-of-fame-title{
@@ -431,6 +431,29 @@ footer img {
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+/*Sponsors*/
+.diamond{
+    position: relative;
+    top: 0;
+    left: -28%;
+    top: 2%; 
+}
+
+.why-sponsor-title{
+    position: relative;
+    top: 25%;
+}
+
+.why-sponsor-text{
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: x-large;
+        color:#244589;
+        margin-left: 2%;
+
+}
+
 
 @media (max-width:991px){
      .reverse-col{
