@@ -206,9 +206,10 @@ nav {
     color:#244589;
     margin-left: 2%;
 }
-.history-cd-mobile{
+.mobile{
     display: none;
 }
+
 
 /****************************************************** FAQ *******************************************************/
 .strip{
@@ -357,10 +358,9 @@ footer img {
 .about-text{
     font-family: "Poppins";
     font-weight: 400;
-    font-size: x-large;
+    font-size: xx-large;
     color:#244589;
-    margin-left: 2%;
-
+    padding-block: 2%;
 }
 
 .bowl-noodles{
@@ -499,26 +499,14 @@ footer img {
 }
 
 /**WIT**/
-
-.fork-noodles{
-    position: relative;
-    width: 128%;
-    height: auto;
-    left: -15%;
-    margin-top: 20%;
-    z-index: 1;
-
-}
-
-.wits-logo{
-    position: relative;
+.wits{
+    margin-top: -150%;
     z-index: 2;
-    top: -40%;
-
+    position: relative;
 }
 
-.team{
-    margin-top: 10%; 
+.team-text{
+    color:#496973;
 }
 
 .t-left{
@@ -560,18 +548,52 @@ footer img {
 }
 
 .orange-button{
-    background-color: #FF7A60;
+    background-color: #F08F65;
     color: white;
     border-radius: 50px;
     text-align: center;
     border: none;
     padding: 18px 25px;
+    font-size: larger;
 
 }
 
 .orange-button:hover{
     opacity: 0.5;
     transition: all 0.3s ease 0s;
+}
+
+.social-icon{
+    color: #244589;
+    font-size: 3em;
+    text-decoration:none;
+}
+.social-icon:hover{
+    color: #CDD6FB;
+    opacity: 50%;
+    font-size: 3em;
+    transition: all 0.3s ease 0s;
+    text-decoration:none;
+}
+
+/* Sponsor imgs Grow */
+.hvr-grow {
+    padding: 2%;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+    opacity: 0.5;
 }
 
 @media (max-width: 768px){
@@ -590,6 +612,17 @@ footer img {
 
     #projects .slick-slide{
         height: 400px;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: contents;
+    }
+    .wits{
+        margin: 0 10%;
+        z-index: 2;
+        position: relative;
     }
 }
 
@@ -666,8 +699,11 @@ footer img {
     .history-cd{
         display: none;
     }
-    .history-cd-mobile{
+    .mobile{
         display: block;
+    }
+    .desktop{
+        display: none;
     }
     .history-text{
         font-family: "Poppins";
@@ -682,20 +718,11 @@ footer img {
         font-size: medium;
         color:#244589;
         text-align: center;
-        
-        
     }
     .about-title{
         position: relative;
         text-align: center;
         margin-left: 10%;
-    }
-    .about-intro {
-        position: relative;
-        text-align: center;
-        margin-left: 10%;
-        font-size: 14px;
-        
     }
     .about-shehacks {
         position: relative;
