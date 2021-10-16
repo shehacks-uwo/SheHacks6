@@ -15,6 +15,10 @@ body {
     background-color: #FFFAED;
 }
 
+body > * > * > * > *{
+    border: solid;
+}
+
 
 h1, h2, h3, h4 {
     /* font-family: "Reckless Neue";
@@ -218,7 +222,7 @@ nav {
 
 .accordion{
     margin: auto;
-    padding: 0px 15%;
+    padding: 0px 7%;
 }
 
 .accordion-item{
@@ -762,9 +766,6 @@ footer img {
         margin-left: 4%;
         font-size: 14px;
 
-    }
-    .wits{
-        margin-left: 10%;
     }
     .wits-title{
         width: 60%;
