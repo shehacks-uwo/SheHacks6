@@ -15,10 +15,15 @@ body {
     background-color: #FFFAED;
 }
 
-body > * > * > * > *{
+/* for debugging */
+/* body > * > * > * > * {
     border: solid;
-}
+}  */
 
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 h1, h2, h3, h4 {
     /* font-family: "Reckless Neue";
@@ -398,7 +403,9 @@ footer img {
 .sushi{
     position: relative;
     top: 0;
-    right: -4%;
+    margin-top: -21%;
+    margin-right: 0;
+    padding: 0;
 }
 
 .title{
@@ -524,7 +531,23 @@ footer img {
 .t-left{
     margin-right: -18%;
 }
+
+@media(max-width:1600px){
+    .wits{
+        margin-top: -120%;
+    }
+}
+
+@media(max-width:1300px){
+    .wits{
+        margin-top: -100%;
+    }
+}
+
 @media (max-width:991px){
+    .wits{
+        margin-top: -110%;
+    }
      .reverse-col{
         flex-direction:column-reverse;
         padding:5%;
@@ -685,7 +708,7 @@ footer img {
 
     .past-events{
         position: relative;
-        margin-top: -175%;
+        margin-top: -180%;
         margin-inline: 15%;
     }
     
