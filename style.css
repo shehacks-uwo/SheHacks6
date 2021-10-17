@@ -154,6 +154,20 @@ nav {
     width: 40vw;
     height: 110vh;
 }
+
+.blob-ho{
+    z-index: -1;
+    position: relative;
+    height: auto;
+    margin-top: 35vh;
+    position: absolute;
+    width: 20vw;
+}
+
+.blob-ho-right{
+    top: 70vh;
+}
+
 .blob-left{
     left: 0em;
 }
@@ -629,7 +643,7 @@ footer img {
     .desktop, .phone{
         display: none;
     }
-    .mobile, .not-phone{
+    .mobile{
         display: contents;
     }
     .wits{
