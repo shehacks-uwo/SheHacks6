@@ -183,6 +183,99 @@ nav {
     left: 21em;
 }
 
+
+.pan1{
+    position: relative;
+    width: 50%;
+    height: 95%;
+    left: 0em;
+    top: 105em;
+}
+
+.pan2{
+    position: relative;
+    width: 55%;
+    height: 130%;
+    right: 0em;
+    top: 89em;
+}
+
+.pan3{
+    position: relative;
+    width: 42%;
+    height: 122%;
+    left: 30em;
+    top: 139em;
+}
+
+.pan1-blurb{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    left: 14em;
+    top: 85em;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+}
+
+.pan2-blurb{
+    position: relative;
+    width: 23%;
+    height: 100%;
+    right: 11em;
+    top: 86em;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+}
+
+.pan3-blurb{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    left: 29em;
+    top: 110.5em;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+}
+
+.panblob1{
+    position: relative;
+    width: 33%;
+    height: 130%;
+    left: 0em;
+    top: 135em;
+}
+
+.panblob2{
+    position: relative;
+    width: 30%;
+    height: 90%;
+    right: 0em;
+    top: 144em;
+}
+
+.panblob3{
+    position: relative;
+    width: 15%;
+    height: 65%;
+    right: 0em;
+    top: 118em;
+
 /* ************************************************ history ****************************************************** */
 .history-text{
     font-family: "Poppins";
@@ -193,12 +286,59 @@ nav {
 }
 .mobile, .phone{
     display: none;
+
 }
 
 
 /****************************************************** FAQ *******************************************************/
 .strip{
     padding: 100px 0px;
+}
+
+.history-text{
+    position: absolute;
+    width: 50%;
+    height: 22%;
+    left: 8em;
+    top: 203em;
+}
+
+.history-sh{
+    position: absolute;
+    width: 53%;
+    height: 22%;
+    left: 6em;
+    top: 211.5em;
+}
+
+.history-growth{
+    position: absolute;
+    width: 50%;
+    left: 3.5em;
+    top: 98.5em;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    
+    letter-spacing: -0.02em;
+    
+    color: #244589;
+}
+
+.history-cd{
+    position: absolute;
+    width: 85%;
+    height: 180%;
+    left: 7.5em;
+    top: 238em;
+}
+
+@media (min-width: 992px){
+    h1{
+        font-size: 120px;
+    }
 }
 
 .accordion{
