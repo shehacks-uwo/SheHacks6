@@ -807,8 +807,13 @@ footer img {
 }
 
 /*working only in ipad portrait device*/
-@media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
-    body{
-      background: red !important;
-    }  
-  }
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .tomatoes{
+        display: none;
+    }
+}
