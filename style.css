@@ -807,13 +807,22 @@ footer img {
 }
 
 /*working only in ipad portrait device*/
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
+@media (min-device-width: 768px){
     .tomatoes{
         display: none;
     }
 }
+@media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+    .tomatoes{
+        display: none;
+    }
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    .tomatoes{
+        display: none;
+    }
+  }
+  
