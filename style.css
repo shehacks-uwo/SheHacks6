@@ -630,6 +630,10 @@ footer img {
         margin-inline: 15%;
     }
 
+    .tomatoes{
+        display: none;
+    }
+
     .burger-image{
         max-width: 90%;
         z-index:100;
@@ -803,15 +807,3 @@ footer img {
         font-size: 120px;
     }
 }
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-    .ipad-portrait/* your css rules for ipad portrait */
-  
-    /* For portrait layouts ipads only */
-    .tomatoes{
-        display: none;
-    }
-    .olives{
-        display: none;
-    }
-  }
