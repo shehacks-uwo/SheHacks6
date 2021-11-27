@@ -361,7 +361,7 @@ footer img {
 .olives{
     position: relative;
     top: -30%;
-    right: -49%;
+    right: -25%;
 }
 
 
@@ -516,6 +516,14 @@ footer img {
 .goal-title{
     width: 30%
 }
+.bowl-noodles{ 
+    max-width: 200%; 
+    z-index:100; 
+    position: relative;
+    float: left;
+    margin: auto;
+     
+}
 
 @media(max-width:1600px){
     .wits{
@@ -538,6 +546,25 @@ footer img {
         padding:5%;
     }
 
+    .title{
+        left: -7%;
+    }
+    
+    .bowl-noodles{ 
+        max-width: 50%; 
+        position: relative;
+        float: left;
+        margin: auto 40%;
+        top: -40%;
+         
+    }
+    
+    .olives{
+        position: relative;
+        max-width: 50%;
+        top: -50%;
+    }
+    
     .burger-image{
         top: 15%;
         max-width: 100%;
@@ -806,8 +833,9 @@ footer img {
     }
 }
 
+
 /*working only in ipad portrait device*/
-@media (min-device-width: 768px){
+@media (max-device-width: 991px){
     .tomatoes{
         display: none;
     }
