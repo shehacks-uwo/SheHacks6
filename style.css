@@ -800,10 +800,16 @@ footer img {
     }
 }
 
+.mlh-fullscreen{
+    position: absolute;
+}
+
 @media (min-width: 992px){s
     h1{
         font-size: 120px;
     }
+   
+   
 }
 
 /*working only in ipad portrait device*/
@@ -811,12 +817,14 @@ footer img {
     .tomatoes{
         display: none;
     }
+    
 }
 @media only screen and (device-width: 768px) {
     /* For general iPad layouts */
     .tomatoes{
         display: none;
     }
+    
   }
   
   @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
@@ -824,5 +832,6 @@ footer img {
     .tomatoes{
         display: none;
     }
+    
   }
   
