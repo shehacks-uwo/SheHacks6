@@ -39,20 +39,20 @@
     <!--nav bar-->
 
     <header>
-        <nav class="navbar navbar-light navbar-expand-md fixed-top">
-            <div class="container">
+        <nav class="navbar navbar-light navbar-expand-lg navbar-expand-md fixed-top">
+            <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <a href="#landing" class="navbar-brand" style="padding: 5px auto 2px auto; "><img
+                <a href="#landing" class="navbar-brand"><img
                         src="images/nav-logo.png" alt="she/hacks"></a>
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                <button class="navbar-toggler collapsed mt-2" type="button" data-toggle="collapse"
                     data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <i class="navbar-toggler-icon"></i>
+                    <i class="navbar-toggler-icon "></i>
                 </button>
 
                 <!-- collapse navbar -->
-                <div class="navbar-collapse collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto w-100 clearfix">
+                <div class="navbar-collapse collapse " id="navbarCollapse">
+                    <ul class="navbar-nav mt-3 w-100 clearfix">
                         <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
                         <li class="nav-item"><a class="nav-link" href="hacker-olympics.html">OLYMPICS</a></li>
                         <li class="nav-item"><a class="nav-link" href="#community">COMMUNITY</a></li>
@@ -62,30 +62,34 @@
                 </div>
             </div>
         </nav>
-    </header>
-    <!--MLH BADGE-->
-    <a id="mlh-trust-badge"
-        style="display:block;max-width:100px;min-width:60px;position:fixed;right:65px;top: 80px;;width:10%;z-index:10000"
-        href="https://mlh.io/seasons/2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=black"
-        target="_blank"><img
-            src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-black.svg"
-            alt="Major League Hacking 2021 Hackathon Season" style="width:100%"></a>
 
-    <section id="splash-screen">
+        
+    </header>
+    <!--MLH BADGE -->
+    <div class="mlh-fullscreen">
+    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top: 10%;width:10%; z-index:1" href="https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=black" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-black.svg" alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a>
+    </div>
+    
+    <secti="splash-screen">
         <div class="container horizontal-center">
             <!--blobs-->
             <div>
                 <img src="images/splash/blobs-left.png" alt="blob" class="blob-left blob rellax" data-rellax-speed="5">
                 <img src="images/splash/blobs-right.png" alt="blob" class="blob-right blob rellax" data-rellax-speed="5">
             </div>
-            <div class="container rellax text-center" data-rellax-speed="-2">
+            <div class="container rellax text-center" data-rellax-speed="-1">
                 <img class="burger-image w-100" src="images/splash/burger.png">
             </div>
         </div>
-        <div class="container horizontal-center py-5">  
-            <a href="https://witsuwo.typeform.com/to/sl0VwaE4"  target="_blank"><button class="orange-button py-3"><b>Join the mailing list</b>&nbsp&nbsp<img src="images/arrow-right.png" width="5%"></button></a>  
-        </div> 
+       
+        
     </section>
+    <br>
+    <br>
+    <div class="container horizontal-center py-3">  
+        <a href="https://witsuwo.typeform.com/shehacksvi"  target="_blank"><button class="orange-button py-3"><b>Apply Now</b>&nbsp&nbsp&nbsp<img src="images/arrow-right.png" width="8%"></button></a>  
+    </div> 
+
 
     <!--About Section-->
     <section id="about">
@@ -93,15 +97,16 @@
         <!-- time to bring heat // mobile + desktop -->
         <div class="w-100 mobile">
             <div class="w-100">
-                <div class="w-100" style="text-align: right;">
-                    <img src="images/about/bowl-noodles.png" class="w-75 rellax" data-rellax-speed="5">
+                <div class="col-lg-8 col-md-11 w-100 "  style="text-align: right; margin-bottom: -100px;">
+                    <img src="images/about/bowl-noodles.png" class="w-50">
                 </div>
             </div>
-            <div class="row my-5 mx-4">
+            <div class="col-lg-8 col-md-11 w-100">
                 <img src="images/about/it’s time to bring the heat.png" class="w-75">
                 <br><br>
                 <p class="about-text my-3" style="text-align: left;">SheHacks+ VI will give you all the ingredients you need to achieve the ultimate recipe for an award-winning hack!</p>
             </div>
+            
         </div>
         <div class="w-100 desktop">
             <div class="row">
@@ -118,17 +123,23 @@
 
         <!-- what is shehacks // mobile + desktop -->
         <div class="w-100 mobile">
-            <div class="my-5">
+            <!-- <div class="my-5">
                 <div class="w-100" style="text-align: left;">
-                    <img src="images/about/tomatoes.png" class="w-75">
+                    <img src="images/about/tomatoes.png" class="w-25">
                 </div>
-            </div>
-            <div class="mx-4">
+            </div> -->
+            <div class="row">
+            <!-- <div class=" col-lg-4 " style="text-align: left; margin-bottom: -50%; margin-left: -20px;">
+                <img src="images/about/tomatoes.png"class="w-25" >
+            </div> -->
+            <div class="col-lg-8 col-md-11 w-100" style="text-align: right;">
                 <img src="images/about/what is shehacks+.png" class="w-75">
                 <br><br>
-                <p class="about-text" style="text-align: left;">SheHacks+ is Canada’s biggest all-female and non-binary 36 hour hackathon, which aims to help individuals who are subject to gender discrimination realize they belong in tech. 
+                <p class="about-text" style="text-align: right; margin-left: px;">SheHacks+ is Canada’s biggest all-female and non-binary 36 hour hackathon, which aims to help individuals who are subject to gender discrimination realize they belong in tech. 
                     <br><br>Join us and 600 other women+ for a weekend of learning, building, and connecting to build your tech skills and realize that you have allies who are supporting you every step of the way.</p>
             </div>
+            </div>
+           
         </div>
         <div class="row w-100 desktop">
             <div class="col-lg-4" style="text-align: left;">
@@ -144,16 +155,16 @@
 
         <!-- hacker olympics -->
         <div class="w-100 mobile">
-            <div>
+            <!-- <div>
                 <div class="w-100" style="text-align: right;">
-                    <img src="images/about/olives.png" class="w-75">
+                    <img src="images/about/olives.png" class="w-25">
                 </div>
-            </div>
+            </div> -->
             <div class="my-5 mx-4">
                 <img src="images/about/hacker-olympics.png" class="w-75">
                 <br><br>
                 <p class="about-text" style="text-align: left;">SheHacks+ VI will give you all the ingredients you need to achieve the ultimate recipe for an award-winning hack!</p>
-                <a href=""><button class="orange-button left-align py-3"><b>Learn More</b>&nbsp&nbsp<img src="images/arrow-right.png" width="10%" style="align-items: center; justify-content: center; display: flex;"></button></a>  
+                <a href="https://shehacks.ca/hacker-olympics.html"><button class="orange-button left-align py-3"><b>Learn More</b>&nbsp&nbsp<img src="images/arrow-right.png" width="10%" style="align-items: center; justify-content: center; display: flex;"></button></a>  
             </div>
         </div>
         <div class="w-100 desktop">
@@ -166,7 +177,7 @@
                         Although we encourage you to build a hack, we also understand that it’s daunting to jump right in with no coding or hackathon experience. 
                         <br>
                         <br>
-                        <a href=""><button class="orange-button left-align py-3"><b>Learn More</b>&nbsp&nbsp<img src="images/arrow-right.png" width="10%" style="align-items: center; justify-content: center; display: flex;"></button></a>  
+                        <a href="https://shehacks.ca/hacker-olympics.html"><button class="orange-button left-align py-3"><b>Learn More</b>&nbsp&nbsp<img src="images/arrow-right.png" width="10%" style="align-items: center; justify-content: center; display: flex;"></button></a>  
                     </p>
                 </div>
                 <div class="col-lg-4 w-100" style="text-align: right; margin-right:0">
@@ -333,9 +344,7 @@
             </div>
         </div>
     </section>
-    
-    <section id="sponsors">
-        <img src="images/sponsors/sponsor-blob.png" style="width: 10vw;" class="blob-right blob-ho rellax" data-rellax-speed="4">
+    <img src="images/sponsors/sponsor-blob.png" style="width: 10vw;" class="blob-right blob-ho rellax" data-rellax-speed="4">
 
         <div class="container horizontal-center">
             <div class="w-100">
@@ -343,10 +352,75 @@
                     <img src="images/sponsors/sponsors.png" alt="sponsors" class="w-50">
                 </div>
             </div>
-             <!--Sponsors-->
-            <h5>
-                Coming Soon!
-            </h5>
+        </div>
+    <section id="sponsors">
+        
+        <div  class="">
+            <div class="container horizontal-center strip p-5">
+                    <!--gold sponsors-->
+                    <div class="row vertical-center">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 hvr-grow">
+                            <a href="https://hedera.com/future" target="_blank"><img src="images/sponsors/hedera.png"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 hvr-grow">
+                            <a href="https://www.ubisoft.com/en-us/careers/experience.aspx" target="_blank"><img src="images/sponsors/ubisoft.svg"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 hvr-grow">
+                            <a href="https://www.bell.ca/campustocareer" target="_blank"><img src="images/sponsors/bell.png"></a>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 hvr-grow">
+                            <a href="https://careers.dynatrace.com" target="_blank"><img src="images/sponsors/dynatrace.png"></a>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-4 col-md-12 col-12 hvr-grow">
+                            <a href="https://www.scotiabank.com/ca/en/personal.html" target="_blank"><img src="images/sponsors/scotiabank.jpg"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-md-12 col-12 hvr-grow">
+                            <a href="https://www.nokia.com/about-us/careers/" target="_blank"><img src="images/sponsors/nokia.jpg"></a>
+                        </div>
+                    </div>
+                     <!--silver sponsors-->
+                     <div class="row vertical-center">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 hvr-grow">
+                            <a href="https://jobs.td.com/en-CA/" target="_blank"><img src="images/sponsors/Td.png"></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 hvr-grow">
+                            <a href="https://www.cgi.com/canada/en-ca" target="_blank"><img src="images/sponsors/cgi.jpg"></a>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 hvr-grow">
+                            <a href="https://careers.geotab.com/" target="_blank"><img src="images/sponsors/geotab.png"></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 hvr-grow">
+                            <a href="https://rangle.io/careers" target="_blank"><img src="images/sponsors/rangle io.jpg"></a>
+                        </div>
+                    </div>
+
+                     <!--bronze sponsors-->
+                     <div class="row vertical-center">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6 hvr-grow">
+                            <a href="https://www.cibc.com/en/about-cibc/careers.html" target="_blank"><img src="images/sponsors/cibc.png"></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6 hvr-grow">
+                            <a href="https://www.architech.ca/people-culture-careers/architech-careers/" target="_blank"><img src="images/sponsors/architech.png"></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6 hvr-grow">
+                            <a href="https://jobs.paloaltonetworks.com/en/" target="_blank"><img src="images/sponsors/palo_alto_networks.png"></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6 hvr-grow">
+                            <a href="https://www.pwc.com/ca/en/careers.html" target="_blank"><img src="images/sponsors/PwC.png"></a>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6 hvr-grow">
+                            <a href="https://www.cppinvestments.com/careers" target="_blank"><img src="images/sponsors/cpp_investments.png"></a>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-4 hvr-grow">
+                            <a href="https://www.loblaw.ca/en/life-at-loblaw" target="_blank"><img src="images/sponsors/loblaw.jpeg"></a>
+                        </div>
+
+                    </div>
+            </div>
         </div>
     </section>
             
@@ -494,11 +568,11 @@
                 </div>
                 <div class="accordion-item">
                     <div class="accordion-item-header">
-                        Is SheHacks V a virtual hackathon?
+                        Is SheHacks VI a virtual hackathon?
                     </div>
                     <div class="accordion-item-body">
                         <div class="accordion-item-body-content">
-                            Yes! This year, SheHacks V will be a virtual event. We look forward to meeting at
+                            Yes! This year, SheHacks VI will be a virtual event. We look forward to meeting at
                             our largest venue yet - the Internet.
                         </div>
                     </div>
@@ -622,6 +696,11 @@
     <footer class="w-100">
         <img src="./images/footer/footer-image.png" width="100%" />
     </footer>
+    <div class="container horizontal-center">
+        <h5>We are proudly partnered with MLH</h5>
+        
+        <a href=" https://mlh.io/code-of-conduct" target="_blank" style="text-decoration: none;">MLH code of conduct</a>
+    </div>
 </body>
 
 <!-- parallax for splash page burger -->
