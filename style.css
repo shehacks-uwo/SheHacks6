@@ -88,7 +88,7 @@ p{
 nav {
     background-color: white;
     z-index: 3000;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .navbar ul {
@@ -125,8 +125,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     background: #E57154;
-    height: 80px;
-    padding: .5rem 1rem;
+    /* height: 80px; */
+    padding: .5rem .5rem 1.5rem 1rem;
 }
 
 .burger-image{
@@ -491,6 +491,31 @@ footer img {
         margin-left: 2%;
 }
 
+/*sponsors*/
+#sponsors img{
+    width: 100%;
+    height: auto;
+    padding: 15%;
+}
+
+/* Sponsor imgs Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
 /**WIT**/
 .wits{
     margin-top: -150%;
@@ -629,6 +654,8 @@ footer img {
         margin-top: -90%;
         margin-inline: 15%;
     }
+
+    
 
     .burger-image{
         max-width: 90%;
@@ -798,8 +825,38 @@ footer img {
     }
 }
 
+.mlh-fullscreen{
+    position: absolute;
+}
+
 @media (min-width: 992px){s
     h1{
         font-size: 120px;
     }
+   
+   
 }
+
+/*working only in ipad portrait device*/
+@media (min-device-width: 768px){
+    .tomatoes{
+        display: none;
+    }
+    
+}
+@media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+    .tomatoes{
+        display: none;
+    }
+    
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    .tomatoes{
+        display: none;
+    }
+    
+  }
+  
